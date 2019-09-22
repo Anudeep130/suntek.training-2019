@@ -16,3 +16,4 @@ void main(){
 	int k;
 	scanf("%d",&k);
 	printf("%d",count(k,n,a));
+}
