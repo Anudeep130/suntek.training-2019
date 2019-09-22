@@ -6,12 +6,14 @@
 #define RIGHT 4
 
 void matlen(int);
-void main()
-{int n;
+int main()
+{
+int n;
 
     printf("enter number of lines to be printed");
     scanf("%d",&n);
     matlen(n);
+    return 1;
 
 }
 void matlen(int MAX)
@@ -108,3 +110,4 @@ void matlen(int MAX)
           printf("%4d ",a[r][c]);
           printf("\n");
     }
+}
